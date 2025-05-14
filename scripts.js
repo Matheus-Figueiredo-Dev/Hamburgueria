@@ -15,6 +15,7 @@ function formatCurrent(value) { //Formatar para moeda
 function showAll(productsArray) {
     let myLi = '' //Resetar a contagem antes de alterar algum dado
 
+    // biome-ignore lint/complexity/noForEach: <explanation>
     productsArray.forEach(products => {
         myLi +=
             `
